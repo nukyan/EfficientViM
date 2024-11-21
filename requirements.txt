@@ -1,0 +1,12 @@
+packaging
+triton
+timm
+pytest 
+chardet 
+yacs 
+termcolor
+submitit 
+tensorboardX
+fvcore
+opencv-python
+tensorboard
