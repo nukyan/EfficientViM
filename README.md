@@ -10,8 +10,8 @@
     <a href="https://hyunwoojkim.com/" target="_blank">Hyunwoo J. Kim</a>*
   </p>
 <!--   <p align="middle">NeurIPS 2024</p> -->
-<!--   <p align="middle"> -->
-<!--     <a href="" target='_blank'><img src="https://img.shields.io/badge/arXiv.16125-b31b1b.svg"></a> -->
+  <p align="middle">
+    <a href="https://arxiv.org/abs/2411.15241" target='_blank'><img src="https://img.shields.io/badge/arXiv-2411.15241-b31b1b.svg?logo=arxiv"></a>
   </p>
 
 </p>
@@ -56,8 +56,8 @@ The family of EfficientViM, marked as red and blue stars, shows the best speed-a
 ### Installation
 ```bash
 # Clone this repository:
-git clone https://github.com/
-cd 
+git clone https://github.com/mlvlab/EfficientViM.git
+cd EfficientViM
 
 # Create and activate the environment
 conda create -n EfficientViM python==3.10
@@ -69,24 +69,24 @@ pip install -r requirements.txt
 ```
 
 ### Training
-To train EfficientViM for classification on ImageNet, run `train.sh` in [classification](https://github.com/mlvlab/EfficientViM/tree/main/classification):
+To train EfficientViM for classification on ImageNet, run `train.sh` in [classification](./classification):
 ```bash
 cd classification
 sh train.sh <num-gpus> <batch-size-per-gpu> <epochs> <model-name> <imagenet-path> <output-path>
 ```
-For example, to train EfficientViM-M1 for 450 epochs using 8 GPU (with a total batch size calculated as `<num-gpu>` $\times$ `<batch-size-per-gpu>` = 2048), run:
+For example, to train EfficientViM-M1 for 450 epochs using 8 GPU (with a total batch size of 2048 calculated as `<num-gpus>` $\times$ `<batch-size-per-gpu>`), run:
 ```bash
 sh train.sh 8 256 450 EfficientViM_M1 <imagenet-path> <output-path>
 ```
 
 ### Training with distillation
-To train EfficientViM with distillation objective of [DeiT](https://github.com/facebookresearch/deit), run `train_dist.sh` in [classification](https://github.com/mlvlab/EfficientViM/tree/main/classification):
+To train EfficientViM with distillation objective of [DeiT](https://github.com/facebookresearch/deit), run `train_dist.sh` in [classification](./classification):
 ```bash
 sh train_dist.sh <num-gpus> <batch-size-per-gpu> <model-name> <imagenet-path> <output-path>
 ```
 
 ### Evaluation
-To evaluate a pre-trained EfficientViM, run `test.sh` in [classification](https://github.com/mlvlab/EfficientViM/tree/main/classification):
+To evaluate a pre-trained EfficientViM, run `test.sh` in [classification](./classification):
 ```bash
 sh test.sh <num-gpus> <model-name> <imagenet-path> <checkpoint-path>
 # For evaluation with the model trained with distillation
@@ -96,13 +96,13 @@ sh test.sh <num-gpus> <model-name> <imagenet-path> <checkpoint-path>
 ## Acknowledgements
 This repo is built upon [Swin](https://github.com/microsoft/Swin-Transformer), [VSSD](https://github.com/YuHengsss/VSSD), [SHViT](https://github.com/ysj9909/SHViT), [EfficientViT](https://github.com/microsoft/Cream), and [SwiftFormer](https://github.com/Amshaker/SwiftFormer).  
 Thanks to the authors for their inspiring works!
-<!-- 
+
 ### Citation
+If this work is helpful for your research, please consider citing it.
 ```
 @article{EfficientViM,
   title={EfficientViM: Efficient Vision Mamba with Hidden State Mixer based State Space Duality},
   author={Lee, Sanghyeok and Choi, Joonmyung and Kim, Hyunwoo J.},
-  journal={},
+  journal={arXiv preprint arXiv:2411.15241},
   year={2024}
 }
-```-->
