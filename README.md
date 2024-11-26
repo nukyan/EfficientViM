@@ -97,7 +97,7 @@ sh test.sh <num-gpus> <model-name> <imagenet-path> <checkpoint-path>
 This repo is built upon [Swin](https://github.com/microsoft/Swin-Transformer), [VSSD](https://github.com/YuHengsss/VSSD), [SHViT](https://github.com/ysj9909/SHViT), [EfficientViT](https://github.com/microsoft/Cream), and [SwiftFormer](https://github.com/Amshaker/SwiftFormer).  
 Thanks to the authors for their inspiring works!
 
-### Citation
+## Citation
 If this work is helpful for your research, please consider citing it.
 ```
 @article{EfficientViM,
