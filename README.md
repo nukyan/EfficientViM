@@ -18,7 +18,7 @@
 
 ---
 
-This repository is an official implementation of EfficientViM: Efficient Vision Mamba with Hidden State Mixer-based State Space Duality.
+This repository is an official implementation of the CVPR 2025 paper EfficientViM: Efficient Vision Mamba with Hidden State Mixer-based State Space Duality.
 
 ## TODO
 - [ ] Release the code for dense predictions.
