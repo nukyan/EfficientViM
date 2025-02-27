@@ -9,6 +9,9 @@
     <a href="https://scholar.google.com/citations?user=IaQRhu8AAAAJ&hl=ko" target="_blank">Joonmyung Choi</a>, 
     <a href="https://hyunwoojkim.com/" target="_blank">Hyunwoo J. Kim</a>*
   </p>
+  <p align="middle">
+    Conference on Computer Vision and Pattern Recognition (CVPR), 2025
+  </p>
 <!--   <p align="middle">NeurIPS 2024</p> -->
   <p align="middle">
     <a href="https://arxiv.org/abs/2411.15241" target='_blank'><img src="https://img.shields.io/badge/arXiv-2411.15241-b31b1b.svg?logo=arxiv"></a>
