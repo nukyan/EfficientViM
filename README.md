@@ -106,7 +106,7 @@ If this work is helpful for your research, please consider citing it.
 @inproceedings{lee2025efficientvim,
   title={EfficientViM: Efficient Vision Mamba with Hidden State Mixer based State Space Duality},
   author={Lee, Sanghyeok and Choi, Joonmyung and Kim, Hyunwoo J.},
-  booktitle={Conference on Computer Vision and Pattern Recognition},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   year={2025}
 }
 ```
