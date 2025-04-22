@@ -23,10 +23,6 @@
 
 This repository is an official implementation of the CVPR 2025 paper EfficientViM: Efficient Vision Mamba with Hidden State Mixer-based State Space Duality.
 
-## TODO
-- [ ] Release the code for dense predictions.
-
-
 ## Main Results
 ### Comparison of efficient networks on ImageNet-1K classification. 
 The family of EfficientViM, marked as red and blue stars, shows the best speed-accuracy trade-offs. ($✝$: with distillation)
