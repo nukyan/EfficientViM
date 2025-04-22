@@ -1,6 +1,6 @@
 packaging
 triton
-timm
+timm==0.5.4
 pytest 
 chardet 
 yacs 
@@ -10,3 +10,5 @@ tensorboardX
 fvcore
 opencv-python
 tensorboard
+numpy==1.25.0
+yapf==0.40.1
