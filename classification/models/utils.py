@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from timm.layers import SqueezeExcite
+from timm.models.layers import SqueezeExcite
 
 
 class LayerNorm2D(nn.Module):
